@@ -56,6 +56,7 @@ header nav a {
     display: flex;
     align-items: center;
     gap: 32px;
+    flex-wrap: nowrap;
 }
 
 .sobre {
@@ -75,6 +76,10 @@ header nav a {
     border-radius: 8px;
     width: 350px;
     /* Ajustado para funcionar em diversas telas */
+}
+
+.sobre div {
+    flex: 1;
 }
 
 .sobre h2 {
